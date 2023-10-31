@@ -1,0 +1,36 @@
+.homeBanner .box-style.btn-box {
+  width: auto;
+}
+
+.homeBanner .game-carousel .thumb img {
+  height: 320px;
+  object-fit: cover;
+}
+
+/* .homeBanner.banner-section .banner-content {
+  padding: 100px 0;
+} */
+
+.homeBanner.banner-section .banner-content {
+  padding-bottom: 50px;
+}
+
+.homeBanner .slick-track {
+  padding-bottom: 0px;
+}
+
+/* .homeBanner .display-one {
+    font-size: 65px;
+    line-height: initial;
+} */
+.homeBanner .fs-four {
+  font-size: 20px;
+  color: var(--n20);
+}
+
+@media (max-width: 991px) {
+  .homeBanner.banner-section .overlay .banner-content {
+    padding: 120px 0 110px;
+    padding-bottom: 50px;
+  }
+}
